@@ -1,0 +1,31 @@
+body{
+    background:rgb(200, 177, 100);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px
+    }
+
+
+.li {
+    float:inherit;
+    color: rgb(18, 28, 172);
+}
+
+.he {
+    color: rgb(128, 0, 0);
+}
+
+.services-list > li {
+   
+}
+
+.links-list > li {
+    color: rgb(172, 18, 172);
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.form > section {
+    display: block;
+    margin: 1rem 0 0 0;
+}

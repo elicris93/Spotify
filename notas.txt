@@ -1,0 +1,10 @@
+
+https://developer.mozilla.org/es/docs/Web/HTML/Element
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/css/css_form.asp
+
+https://validator.w3.org/nu/#textarea
+
+https://fontawesome.com/v5.15/icons?d=gallery&p=3&m=free
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_forms

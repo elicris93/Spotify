@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+	<title>PyMEs</title>
+	<link href="./estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="he">Scotiabank</h1>
+		<nav class="nav">
+			<img src="IMAGEN1.jpg" height="300" width="1100" alt="estrellas" />
+			<h2>Banking is different over here</h2>
+			<p>
+				<span>Tú y tu negocio son nuestra prioridad y queremos acompañarte en cada etapa, asesorándote y
+					ofreciéndote excelentes soluciones financieras para impulsar juntos tu negocio.
+				</span>
+			</p>
+			<p>
+				<span>Hoy, tu PyME es MÁS y requiere de un aliado financiero para seguir creciendo. En Scotiabank PyME
+					buscamos serlo y desarrollamos productos y servicios, que harán que tu negocio sea + eficiente, +
+					rentable, + ágil, + dinámico, y + especializado.
+				</span>
+			</p>
+			<p>
+				<span>¡Descubre las soluciones que tenemos para ti!
+				</span>
+			</p>
+			<ul class="services-list">
+				<li class="li">Administración </li>
+				<li class="li">Cobranza</li>
+				<li class="li">Punto de venta </li>
+				<li class="li">Protección</li>
+				<li class="li">Inversión</li>
+				<li class="li">Finaciamiento</li>
+			</ul>
+
+		</nav>
+
+	</header>
+
+	<main>
+		<img src="IMAGEN2.jpg" height="300" width="1100" alt="estrellas" />
+		<p>
+			En Scotiabank tu negocio es nuestra prioridad
+		</p>
+		<p>
+			<span>por lo que creamos Soluciones Financieras para apoyarte y hacer crecer juntos tu negocio.
+			</span>
+		</p>
+
+		<form class="form" onsubmit="onsubmit()">
+			<section>
+				<label for="username">Username: </label>
+				<input id="username" type="text" placeholder="escribe tu username" />
+			</section>
+			<section>
+				<label for="lname">Last Name</label>
+				<input id="lname" type="text" />
+			</section>
+			<section>
+				<label for="email">email: </label>
+				<input id="email" type="email" />
+			</section>
+
+			<section>
+				<label for="country">Country</label>
+				<input id="countryoption" name="countryoption" />
+			</section>
+			
+			<section>
+				<label for="range">range</label>
+				<input id="range" name="range" type="range" min="0" max="100" list="tickmarks" />
+
+
+				<datalist id="tickmarks">
+					<option value="0" label="0%">
+					<option value="10">
+					<option value="20">
+					<option value="30">
+					<option value="40">
+					<option value="50" label="50%">
+					<option value="60">
+					<option value="70">
+					<option value="80">
+					<option value="90">
+					<option value="100" label="100%">
+				</datalist>
+			</section>
+
+			<section>
+				<label for="tel">tel</label>
+				<input id="tel" name="tel" type="tel" />
+			</section>
+
+			<section>
+				<label for="checkbox">
+					checkbox 1
+					<input id="checkbox" name="checkbox" type="checkbox" value="1" />
+				</label>
+				<label for="checkbox2">
+					checkbox 2
+					<input id="checkbox2" name="checkbox" type="checkbox" value="2" />
+				</label>
+			</section>
+
+			<section>
+				<label for="radio">radio</label>
+				<input id="radio" name="radio" type="radio" value="2" />
+
+				<label for="radio2">radio2</label>
+				<input id="radio2" name="radio" type="radio" value="2" />
+			</section>
+
+			<section>
+				<label for="color">color</label>
+				<input id="color" name="color" type="color" />
+			</section>
+
+			<section>
+				<label for="image">image</label>
+				<input id="image" name="image" type="image" />
+			</section>
+
+			<section>
+				<label for="file">file</label>
+				<input id="file" name="file" type="file" />
+			</section>
+
+			<section>
+				<label for="time">time</label>
+				<input id="time" name="time" type="time" />
+			</section>
+
+			<section>
+				<label for="date">date</label>
+				<input id="date" name="date" type="date" />
+			</section>
+
+			<section>
+				<label for="search">search</label>
+				<input id="search" name="search" type="search" />
+			</section>
+
+			<section>
+				<label for="number">number</label>
+				<input id="number" name="number" type="number" min="5" max="15" step="5" />
+			</section>
+
+			<section>
+				<label for="password">password</label>
+				<input id="password" name="password" type="password" />
+			</section>
+
+			<section>
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="Japon">Japon</option>
+					<option value="China">China</option>
+					<option value="España">España</option>
+					<option value="Chile">Chile</option>
+					<option value="Brasil">Brasil</option>
+					<option value="India">India</option>
+				</select>
+			</section>
+
+			<section>
+				<label>Choose a browser from this list:
+					<input list="browsers" name="myBrowser" /></label>
+				<datalist id="browsers">
+					<option value="0" label="0%">
+					<option value="10">
+					<option value="20">
+					<option value="30">
+					<option value="40">
+					<option value="50" label="50%">
+					<option value="60">
+					<option value="70">
+					<option value="80">
+					<option value="90">
+					<option value="100" label="100%">
+				</datalist>
+			</section>
+
+			<section>
+				<textarea>
+
+				</textarea>
+			</section>
+
+			<button type="submit">enviar</button>
+		</form>
+
+			<button>otro boton</button>
+
+	</main>
+
+	<footer>
+
+		<h2>
+			<span class="he">Scotiabank
+			</span>
+		</h2>
+		<ul class="links-list">
+			<li>Seguridad</li>
+			<li>Aviso de Privacidad</li>
+			<li>FATCA</li>
+			<li>Términos y Condiciones</li>
+			<li>Transparencia</li>
+			<li>Banca y Mercados Globales</li>
+			<li>CONDUSEF</li>
+			<li>Ofertas de Empleo</li>
+			<li>Directorio Agencias de Cobranza</li>
+			<li>Portabilidad de Nómina</li>
+			<li>Términos y Condiciones Promociones</li>
+			<li>Educación Financiera</li>
+			<li>Consulta los Costos y las Comisiones de nuestros productos</li>
+		</ul>
+	</footer>
+	<script>
+		function onsubmit(e) {
+			
+			debugger;
+			e.preventDefault();
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+body{
+    background:rgb(100, 151, 153);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px
+    }
+
+
+.li {
+    color: rgb(26, 35, 163);
+    flex: 50%;
+    list-style:none;
+    line-height: 30px;
+}
+
+.he {
+    color: rgb(187, 25, 25);
+}
+
+.li2 {
+    color: rgb(97, 20, 97);
+}
+
+.lisection {
+   color: rgb(12, 85, 12);
+}
+
+.lipagos {
+    color: rgb(21, 34, 95);
+ }
+
+ .li5 {
+    color: rgb(141, 12, 18);
+ }
+
+ .menu {
+     margin: 10px;
+     padding: 20px;
+ }
+
+ .menu > li {
+    display: inline;
+    text-decoration: underline;
+    height: 20px;
+    float: left;
+    list-style: none;
+    margin: 20px;
+    padding: 0.5rem;
+    
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    
+    animation-duration: 3s;
+    animation-name: qweqweqw;
+      
+   }
+   .menu > li:hover > a{
+     background-color: white;
+     color: red;
+   }
+
+  
+  @keyframes qweqweqw {
+    0% {
+      margin-left: 100%;
+      width: 300%;
+      background-color: transparent;
+    }
+
+    95% {
+      background-color: yellowgreen;
+    }
+  
+    100% {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+ .image-container  {
+    text-align: center;
+    left: 50px;
+ }
+
+ .services-functionalities-section {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+.functionalities-section {
+  flex: 30%;
+}
+
+.services-section {
+  flex: 30%;
+}
+.services-pago {
+  flex: 30%;
+}
+
+.functionalities-section p {
+  padding-right: 3rem;
+}
+.image-shield {
+  text-align: center;
+}
+
+.limenu {
+  color: rgb(13, 6, 82);
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+.datos {
+  margin: 10px
+}
+
+.espacio { 
+  background:rgb(163, 187, 25);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-section {
+  margin-bottom: 2rem;
+  transition: background-color 0.5s ease
+}
+
+.input-section:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.input-section > label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-section > input {
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 20px;
+  line-height: 50px;
+  padding: 10px;
+  width: 100%;
+}
+
+.slider-section {
+  width: 100%;
+  position: relative;
+}
+
+.slider-section .slider {
+  position: relative;
+  display: flex;
+  overflow: auto;
+}
+
+.slider-section .slider .item {
+  width: 195px;
+  height: 170px;
+  position: relative;
+  background-color: turquoise;
+
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.info-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.info-section > span{
+  display: block;
+}
+
+.movie-title {
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
