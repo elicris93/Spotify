@@ -3,23 +3,29 @@
 
 <head>
   <title>Spotify</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/6738809a5a.js" crossorigin="anonymous"></script>
   <link href="./estilos-Spotify.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <div id="app">
     <section class="menu-section">
-      <h1 class="title">Spotify</h1>
-
+      <div class="title-container">
+        <h1 class="title">Spotify</h1>
+        <button class="bars-button">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
       <header class="header">
         <nav class="nav">
           <ul class="ul">
             <li class="li"><span class="span"><i class="fas fa-home"></i>Home</span></li>
             <li class="li"><i class="fas fa-search"></i>Search</li>
-            <li class="li">Your library</li>
-            <li class="li">Create Playlist</li>
-            <li class="li">Liked songs</li>
+            <li class="li"><i class="fas fa-book"></i>Your library</li>
+            <li class="li"><i class="fas fa-folder-plus"></i>Create Playlist</li>
+            <li class="li"><i class="fab fa-gratipay"></i>Liked songs</li>
           </ul>
         </nav>
 
@@ -53,52 +59,53 @@
 
     <section class="main">
       <section class="played-recently-section">
+        <h2 class="title">Good evening</h2>
         <ul class="played-recently-ul">
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="2.jfif" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="3.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="4.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="5.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="6.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="7.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="8.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
           <li class="played-recently-li">
             <div class="played-recently-item-container">
-              <img src="https://picsum.photos/70/70" />
+              <img src="9.jpg" />
               <div><span>Liked Songs</span></div>
             </div>
           </li>
@@ -106,12 +113,11 @@
       </section>
 
       <section class="slider-section">
-        <p>
+        
         <h2 class="title">Your top Shows</h2>
-        </p>
         <div class="slider">
           <a class="item">
-            <img src="https://picsum.photos/195/170" />
+            <img src="12.jpg" />
 
             <div class="info-section">
               <span class="music-title">Aries hoy</span>
@@ -119,7 +125,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/194/170" />
+            <img src="11.jpg" />
 
             <div class="info-section">
               <span class="music-title">La-Lista</span>
@@ -127,7 +133,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/195/178" />
+            <img src="10.jpg" />
 
             <div class="info-section">
               <span class="music-title">Noticias W Radio</span>
@@ -135,7 +141,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/193/170" />
+            <img src="13.jpg" />
 
             <div class="info-section">
               <span class="music-title">Café expreso</span>
@@ -143,7 +149,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/192/170" />
+            <img src="14.jpg" />
 
             <div class="info-section">
               <span class="music-title">El inclreible javascri.</span>
@@ -151,21 +157,21 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/191/170" />
+            <img src="15.jpg" />
             <div class="info-section">
               <span class="music-title">Daily Easy English e...</span>
               <span class="music-title">Coach Shane</span>
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/190/170" />
+            <img src="16.jpg" />
             <div class="info-section">
               <span class="music-title">React Podcast</span>
               <span class="music-title">Michael Chan</span>
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/189/170" />
+            <img src="17.jpg" />
             <div class="info-section">
               <span class="music-title">Daily Easy English e...</span>
               <span class="music-title">Coach Shane</span>
@@ -175,12 +181,11 @@
       </section>
 
       <section class="slider-section">
-        <p>
+      
         <h2 class="title">Uniquely yours</h2>
-        </p>
         <div class="slider">
           <a class="item">
-            <img src="https://picsum.photos/195/170" />
+            <img src="18.jpg" />
 
             <div class="info-section">
               <span class="music-title">Time Capsule</span>
@@ -188,7 +193,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/194/170" />
+            <img src="19.jpg" />
 
             <div class="info-section">
               <span class="music-title">Repeat</span>
@@ -196,7 +201,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/195/178" />
+            <img src="21.jpg" />
 
             <div class="info-section">
               <span class="music-title">Aries hoy</span>
@@ -204,7 +209,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/193/170" />
+            <img src="20.jpg" />
 
             <div class="info-section">
               <span class="music-title">La-Lista</span>
@@ -212,7 +217,7 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/192/170" />
+            <img src="22.jpg" />
 
             <div class="info-section">
               <span class="music-title">Noticias W Radio</span>
@@ -220,21 +225,21 @@
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/191/170" />
+            <img src="1.jfif" />
             <div class="info-section">
               <span class="music-title">Café expreso</span>
               <span class="music-title">REFORMA & Spotify Studios</span>
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/190/170" />
+            <img src="2.jfif" />
             <div class="info-section">
               <span class="music-title">El inclreible javascri..</span>
               <span class="music-title">El increible js/ pato de turing</span>
             </div>
           </a>
           <a class="item">
-            <img src="https://picsum.photos/189/170" />
+            <img src="7.jpg" />
             <div class="info-section">
               <span class="music-title">Daily Easy English e...</span>
               <span class="music-title">Coach Shane</span>
@@ -245,22 +250,34 @@
     </section>
 
     <section class="player-controls">
-      <section>left
-        <div>
-          <img />
-          <div>
-            <span></span>
-            <span></span>
-            <i></i>
-            <i></i>
+      <section class="player-controls-left">
+        <div class="player-controls-left-item">
+          <img src="2.jfif" height="75" width="75"/>
+          <div class="player-controls-left-tex">
+            <span class="title-left">Savlor</span>
+            <span class="title-left">Rice music</span>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
           </div>
         </div>
       </section> 
-      <section>center
-        <div> <i>back</i> <i>play</i> <i>next</i></div>
-        <div> <input type="range" /> </div>
+
+      <section class="player-controls-center">
+        <div class="control-buttons-list"> 
+          <i class="fas fa-random"></i>
+          <i class="far fa-caret-square-left"></i>
+          <i class="fas fa-play"></i>
+          <i class="far fa-caret-square-right"></i>
+          <i class="fas fa-exchange-alt"></i>
+        </div>
+        <input class="timeline" type="range" />
       </section>
-      <section>right</section>
+
+      <section class="player-controls-right">
+      <div>
+        <i class="fas fa-volume-up"></i>
+      </div>
+      <div> <input type="range" long="70" /> </div>
     </section>
   </div>
 </body>
